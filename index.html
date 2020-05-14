@@ -11,7 +11,7 @@
 <h1 id="title">Resturant Response</h1>
 <p id="description">Thank you for using our resturant</p>
     <script  src="js/index.js"></script>
-
+<div id="container">
   <form id="survey-form">
     <label for="name" id="name-label">Name</label> <br>
     <input
@@ -27,6 +27,31 @@
         id="email"
         placeholder="Enter your E-mail"
         required>
+        <br>
+
+        <label for="number" id="number-label">Age</label> <br>
+        <input type="number" name="age" placeholder="Age" id="number" min="10" max="70">
+        
+
+        <div id="favorite">
+          <select name="favorite" id="dropdown">
+          <option value="chicken">Chicken</option>
+          <option value="pork">Pork</option>
+          <option value="vegeterian">vegeterian</option>
+          </select>
+        </div>
+
+        <div>
+          <label >
+            <input type="radio" name="Delivery" value="Home-delivery">
+            Home Delivery
+          </label>
+
+          <label >
+            <input type="radio" name="Delivery" value="Pick-Up">
+            Pick Up
+          </label>
+        </div>
 
 
 
@@ -38,7 +63,7 @@
 
 
 
-
+  </div>
 
 </form>
       </body>
