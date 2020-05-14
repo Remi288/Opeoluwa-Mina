@@ -13,13 +13,18 @@
     <script  src="js/index.js"></script>
 <div id="container">
   <form id="survey-form">
+<div id="nameid">
     <label for="name" id="name-label">Name</label> <br>
     <input
         type="text"
         name="name"
         id="name"
         placeholder="Enter your name"
-        required> <br>
+        required>
+      </div>
+      <br>
+<div id="emailid">
+
     <label for="email" id="email-label">E-mail</label> <br>
     <input
         type="email"
@@ -27,21 +32,25 @@
         id="email"
         placeholder="Enter your E-mail"
         required>
+      </div>
         <br>
-
+<div id="ageid">
         <label for="number" id="number-label">Age</label> <br>
         <input type="number" name="age" placeholder="Age" id="number" min="10" max="70">
-        
-
-        <div id="favorite">
+</div>
+<br>
+<h2> What's your favourite dish?</h2>
+        <div id="favoriteid">
           <select name="favorite" id="dropdown">
-          <option value="chicken">Chicken</option>
-          <option value="pork">Pork</option>
-          <option value="vegeterian">vegeterian</option>
+          <option value="chicken">Chicken Dish</option>
+          <option value="pork">Pork Dish</option>
+          <option value="vegeterian">Vegeterian Dish</option>
           </select>
         </div>
-
+<br>
+<h2>Preferred Delivery Method</h2>
         <div>
+
           <label >
             <input type="radio" name="Delivery" value="Home-delivery">
             Home Delivery
@@ -51,8 +60,35 @@
             <input type="radio" name="Delivery" value="Pick-Up">
             Pick Up
           </label>
-        </div>
 
+
+        </div>
+        <br>
+<h2> Your favourite Pizzas</h2>
+<div id="pizzaid">
+
+  <label>
+    <input type="checkbox" name="Pizza" value="Pepperoni">Pepperoni Pizza
+  </label>
+
+  <label>
+    <input type="checkbox" name="Pizza" value="Margarita"> Margarita Cheese Pizza
+  </label>
+
+  <label>
+    <input type="checkbox" name="Pizza" value="vegeterian-pizza"> vegeterian Pizza
+  </label>
+<br>
+
+<div id="textareaid"> <p>Additional comments.</p>
+  <textarea id="comment" placeholder="Enter your comments here."></textarea>
+
+
+
+
+
+
+</div>
 
 
 
