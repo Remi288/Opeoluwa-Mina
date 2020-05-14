@@ -11,9 +11,13 @@ body {
     background-color: rgba(198, 214, 198, 0.74);
     width: 900px;
     margin: 0 auto;
+    border: 1px solid rgba(255, 255, 255, 0.856);
+    border-radius: 0.30rem;
+    display: block;
 }
 
-#commentsgi {
+#comment {
     min-height: 120px;
     width: 90%;
+    padding: 0.625rem;
 }
