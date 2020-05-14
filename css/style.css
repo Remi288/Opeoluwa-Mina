@@ -1,0 +1,19 @@
+body {
+
+    background-color: red; /* For browsers that do not support gradients */
+    background-image: linear-gradient(red, yellow);
+    text-align: center;
+    font-weight: bold;
+    line-height: 1.4;
+}
+
+#container {
+    background-color: rgba(198, 214, 198, 0.74);
+    width: 900px;
+    margin: 0 auto;
+}
+
+#commentsgi {
+    min-height: 120px;
+    width: 90%;
+}
